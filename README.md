@@ -74,20 +74,7 @@ You can then fill in the required information and get the prediction by clicking
 
  
  ## Architecture
-
-├── Flask application                     # Contains folder of the API
-│   ├── content
-│   |   ├── static                        # Contains all files static (css, images, ..) for the API
-│   │   |   ├── css                       
-│   │   |   |   ├── style.css             # The custom css for the application
-│   |   ├── index_accueil.html            # The .html file for the structure of the application
-│   │   ├── df_bike2.pkl                  # A save of the final dataframe that we used for data modeling
-│   │   ├── model_grad_boosting_reg.pkl   # A save of the model selected in the notebook for the prediction (gradient boosting regressor model)        
-│   ├── Flask_application.ipynb           # The flask API notebook    
-├── SeoulBikeData.csv                     # The .csv file of the data used in the study
-├── Seoul_Bike_diapo.pptx                 # The PowerPoint of the study
-├── Seoul_Bike_diapo.pdf                  # The .pdf version of the PowerPoint of the study
-├── Seoul_Bike_Data_Project.ipynb         # The notebook of the study
  
+![architecture](https://user-images.githubusercontent.com/95496652/147876240-21d490e2-387f-4b95-b5f5-1cde76c9b232.PNG)
 
 -------------------------
