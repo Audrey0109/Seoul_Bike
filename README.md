@@ -22,7 +22,7 @@
 *This project is the final project of ESILV course Python for Data Analysis* 
 <br>
 During this project, we had to study a CSV dataset for estimating Seoul Bike rental demand based on a panel of time and meteorological criteria. 
-This project concerns the dataset 'Seoul Bike Sharing Demand Data Set' that can be found here:
+<br> This project concerns the dataset 'Seoul Bike Sharing Demand Data Set' that can be found here:
 https://archive.ics.uci.edu/ml/datasets/Seoul+Bike+Sharing+Demand
 
 The project contains a preliminary data cleaning, data exploration, visualizations, dimensionality reduction, data preprocessing, data modeling.
@@ -43,7 +43,7 @@ The project is organized in 3 main parts:
 •  Finally the last part of our project was to transform our model into an API. We choose to do it with Flask
  
 ### Conclusion
-By comparing many Machine Learning models and trying different combinations of hyperparmeters, we found that the Gradient Boosting model was the best algorithm to predict Seoul bike rental demand. 
+By comparing many Machine Learning models and trying different combinations of hyperparmeters, we found that the Gradient Boosting model was the best algorithm to predict Seoul bike rental demand. We also noticed that we obtained better performance scores with all the features, so we included them all in our final GB model (used for the API). 
 <br>
 For more informations on the project (observations/selection of features, model selection), please go to the notebook's section below. 
  
