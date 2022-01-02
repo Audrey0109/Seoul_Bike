@@ -43,7 +43,7 @@ For more informations on the project (observations/selection of features, model 
  [Go to the study](../main/Seoul_Bike_Data_Project_VRAI.ipynb)
 
  ## Usage
- The Flask API is in the last part of the notebook "7. Flask". 
+ The Flask API is in the notebook "Flask_application.ipynb". 
  
  First, after opening the notebook, you need to put some files in the “content” folder :
   - You have to put the files index_accueil.html, model_grad_boosting_reg.pkl and df_bike2.pkl
@@ -58,6 +58,9 @@ For more informations on the project (observations/selection of features, model 
  ![tempsnip](https://user-images.githubusercontent.com/95496652/147863512-7b923101-a5f8-4fbf-b994-535484f5d57e.png)
 
 ![image](https://user-images.githubusercontent.com/95496652/147863518-c69a9ffe-b2ce-4b2f-8df4-61af57dd8caa.png)
+
+
+You can then fill in the required information and get the prediction by clicking on the "Get the bike count prediction" button.
 
  
  ## Features
