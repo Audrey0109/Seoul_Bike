@@ -77,6 +77,6 @@ You can then fill in the required information and get the prediction by clicking
  
  ## Architecture
  
-![architecture](https://user-images.githubusercontent.com/95496652/147876240-21d490e2-387f-4b95-b5f5-1cde76c9b232.PNG)
+![image](https://user-images.githubusercontent.com/95496652/147891121-2706345a-4465-4f3e-a591-e00949dc1a79.png)
 
 -------------------------
