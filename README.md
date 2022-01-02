@@ -44,9 +44,9 @@ The project is organized in 3 main parts:
  
 ### Conclusion
 From our visualisations, we found that time variables and temperature have a strong influence on our target value. We noticed that people from Seoul tend to rent more bikes during Summer, especially during commuting hours and when the weather is warm.
-<br>
+<br><br>
 By comparing many Machine Learning models and trying different combinations of hyperparmeters, we found that the Gradient Boosting model was the best algorithm to predict Seoul bike rental demand. We also noticed that we obtained better performance scores with all the features, so we included them all in our final GB model (used for the API). 
-<br>
+<br><br>
 For more informations on the project (observations/selection of features, model selection), please go to the notebook's section below. 
  
  ## Notebook
