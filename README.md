@@ -54,7 +54,7 @@ For more informations on the project (observations/selection of features, model 
 
  ## Usage - API
  The Flask API is in the notebook "Flask_application.ipynb". 
- [Go to the study](../main/Flask application/Flask_application.ipynb)
+ [Go to the study](../main/Flask_application/Flask_application.ipynb)
  
  First, after opening the notebook, you need to put some files in the “content” folder :
   - You have to put the files index_accueil.html, model_grad_boosting_reg.pkl and df_bike2.pkl
