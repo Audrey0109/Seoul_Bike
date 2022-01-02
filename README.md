@@ -13,8 +13,7 @@
 ## Table of contents
   * [About the project](#about_the_project)
   * [Notebook](#notebook)
-  * [Usage](#usage)
-  * [Features](#features)
+  * [Usage - API](#usage)
   * [Architecture](#architecture)
 
 ## About the project
@@ -23,6 +22,15 @@
 *This project is the final project of ESILV course Python for Data Analysis* 
 <br>
 During this project, we had to study a CSV dataset for estimating Seoul Bike rental demand based on a panel of time and meteorological criteria. 
+This project concerns the dataset 'Seoul Bike Sharing Demand Data Set' that can be found here:
+https://archive.ics.uci.edu/ml/datasets/Seoul+Bike+Sharing+Demand
+
+The project contains a preliminary data cleaning, data exploration, visualizations, dimensionality reduction, data preprocessing, data modeling.
+All those can be found in the jupyter notebook "Seoul_Bike_Data_Project.ipynb".
+
+The project also includes a Flask API to make predictions.
+
+A report is also given in PDF format.
 
 ### Tasks achieved 
 
@@ -35,15 +43,16 @@ The project is organized in 3 main parts:
 •  Finally the last part of our project was to transform our model into an API. We choose to do it with Flask
  
 ### Conclusion
-By comparing Machine Learning models, we found that the Gradient Boosting model was the best algorithm to predict Seoul bike rental demand. 
+By comparing many Machine Learning models and trying different combinations of hyperparmeters, we found that the Gradient Boosting model was the best algorithm to predict Seoul bike rental demand. 
 <br>
 For more informations on the project (observations/selection of features, model selection), please go to the notebook's section below. 
  
  ## Notebook
  [Go to the study](../main/Seoul_Bike_Data_Project_VRAI.ipynb)
 
- ## Usage
+ ## Usage - API
  The Flask API is in the notebook "Flask_application.ipynb". 
+ [Go to the study](../main/Flask application/Flask_application.ipynb)
  
  First, after opening the notebook, you need to put some files in the “content” folder :
   - You have to put the files index_accueil.html, model_grad_boosting_reg.pkl and df_bike2.pkl
@@ -52,8 +61,8 @@ For more informations on the project (observations/selection of features, model 
   ![image](https://user-images.githubusercontent.com/95496652/147863425-66063d62-4d66-4be5-8715-fc2340f13ca2.png)
 
  
- Then after that, you must execute all cells in the section.
- When you run the application cell, three internet links will appear. Click on the second to access the API.
+ Then after that, you must execute all cells.
+ When you run the application cell (the last one), three internet links will appear. Click on the second to access the API.
  
  ![tempsnip](https://user-images.githubusercontent.com/95496652/147863512-7b923101-a5f8-4fbf-b994-535484f5d57e.png)
 
@@ -62,11 +71,23 @@ For more informations on the project (observations/selection of features, model 
 
 You can then fill in the required information and get the prediction by clicking on the "Get the bike count prediction" button.
 
- 
- ## Features
+
  
  ## Architecture
- 
+
+├── Flask application                     # Contains folder of the API
+│   ├── content
+│   |   ├── static                        # Contains all files static (css, images, ..) for the API
+│   │   |   ├── css                       
+│   │   |   |   ├── style.css             # The custom css for the application
+│   |   ├── index_accueil.html            # The .html file for the structure of the application
+│   │   ├── df_bike2.pkl                  # A save of the final dataframe that we used for data modeling
+│   │   ├── model_grad_boosting_reg.pkl   # A save of the model selected in the notebook for the prediction (gradient boosting regressor model)        
+│   ├── Flask_application.ipynb           # The flask API notebook    
+├── SeoulBikeData.csv                     # The .csv file of the data used in the study
+├── Seoul_Bike_diapo.pptx                 # The PowerPoint of the study
+├── Seoul_Bike_diapo.pdf                  # The .pdf version of the PowerPoint of the study
+├── Seoul_Bike_Data_Project.ipynb         # The notebook of the study
  
 
 -------------------------
