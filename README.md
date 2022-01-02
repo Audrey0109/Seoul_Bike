@@ -43,7 +43,22 @@ For more informations on the project (observations/selection of features, model 
  [Go to the study](../main/Seoul_Bike_Data_Project_VRAI.ipynb)
 
  ## Usage
- --> comment utiliser l'API (s'inspirer du truc de Jean) + peut être mettre des screens de l'API ça peut être stylé
+ The Flask API is in the last part of the notebook "7. Flask". 
+ 
+ First, after opening the notebook, you need to put some files in the “content” folder :
+  - You have to put the files index_accueil.html, model_grad_boosting_reg.pkl and df_bike2.pkl
+  - You have to create a “static” folder. In the “static” folder, place the image bike.jpg, create a “css” folder in which you place the file style.css
+  
+  ![image](https://user-images.githubusercontent.com/95496652/147863425-66063d62-4d66-4be5-8715-fc2340f13ca2.png)
+
+ 
+ Then after that, you must execute all cells in the section.
+ When you run the application cell, three internet links will appear. Click on the second to access the API.
+ 
+ ![tempsnip](https://user-images.githubusercontent.com/95496652/147863512-7b923101-a5f8-4fbf-b994-535484f5d57e.png)
+
+![image](https://user-images.githubusercontent.com/95496652/147863518-c69a9ffe-b2ce-4b2f-8df4-61af57dd8caa.png)
+
  
  ## Features
  
