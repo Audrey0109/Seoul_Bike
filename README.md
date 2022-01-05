@@ -30,7 +30,7 @@ All those can be found in the jupyter notebook "Seoul_Bike_Data_Project.ipynb".
 
 The project also includes a Flask API to make predictions.
 
-A report is also given in PDF format. [Go to the study](../main/Report_final_ppt_CHMIEL_DONIER_DIA1)
+A report is also given in PDF format. [Go to the study](../main/Report_final_ppt_CHMIEL_DONIER_DIA1.pdf)
 
 ### Tasks achieved 
 
