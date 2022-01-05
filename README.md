@@ -21,7 +21,7 @@
 
 *This project is the final project of ESILV course Python for Data Analysis* 
 <br>
-During this project, we had to study a CSV dataset for estimating Seoul Bike rental demand based on a panel of time and meteorological criteria. 
+During this project, we had to study a CSV dataset for estimating Seoul Bike rental demand from each hour based on a panel of time and meteorological criteria. 
 <br> This project concerns the dataset 'Seoul Bike Sharing Demand Data Set' that can be found here:
 https://archive.ics.uci.edu/ml/datasets/Seoul+Bike+Sharing+Demand
 
