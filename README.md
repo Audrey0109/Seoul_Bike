@@ -59,7 +59,7 @@ For more informations on the project (observations/selection of features, model 
  First, after opening the notebook, you need to put some files in the “content” folder :
   - You have to put the files index_accueil.html, model_grad_boosting_reg.pkl and df_bike2.pkl
   - You have to create a “static” folder. In the “static” folder, place the image bike.jpg, create a “css” folder in which you place the file style.css
-  - // Careful, the name of the folders/files is case sensitive, you must write the names the same way as shown above.
+  - // Be careful, the name of the folders/files is case sensitive, you must write the names the same way as shown below on the picture.
   ![image](https://user-images.githubusercontent.com/95496652/147863425-66063d62-4d66-4be5-8715-fc2340f13ca2.png)
 
  
